@@ -2,6 +2,7 @@ ActionScript1.java
 ActionScript19.java
 ActionScript18.java
 ActionScript17.java
+ActionScript26.java
 ActionScript16.java
 TagDB1.java
 ActionScript25.java
