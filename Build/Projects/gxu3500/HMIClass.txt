@@ -13,6 +13,7 @@ ActionScript14.java
 XprSrv.java
 ActionScript23.java
 ActionScript13.java
+Panel6.java
 Panel1XprSrv.java
 RefTagDB.java
 ActionScript22.java
@@ -31,10 +32,10 @@ ActionScript7.java
 Panel2.java
 Startup.java
 ActionScript6.java
-Panel2XprSrv.java
 Panel1.java
 ActionScript5.java
 ActionScript4.java
+Panel6XprSrv.java
 ExternalCmdScript.java
 ActionScript3.java
 MasterPanel.java

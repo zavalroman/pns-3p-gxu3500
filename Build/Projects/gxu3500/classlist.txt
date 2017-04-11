@@ -13,6 +13,7 @@ Projects/gxu3500/ActionScript14
 Projects/gxu3500/XprSrv
 Projects/gxu3500/ActionScript23
 Projects/gxu3500/ActionScript13
+Projects/gxu3500/Panel6
 Projects/gxu3500/Panel1XprSrv
 Projects/gxu3500/RefTagDB
 Projects/gxu3500/ActionScript22
@@ -31,10 +32,10 @@ Projects/gxu3500/ActionScript7
 Projects/gxu3500/Panel2
 Projects/gxu3500/Startup
 Projects/gxu3500/ActionScript6
-Projects/gxu3500/Panel2XprSrv
 Projects/gxu3500/Panel1
 Projects/gxu3500/ActionScript5
 Projects/gxu3500/ActionScript4
+Projects/gxu3500/Panel6XprSrv
 Projects/gxu3500/ExternalCmdScript
 Projects/gxu3500/ActionScript3
 Projects/gxu3500/MasterPanel
