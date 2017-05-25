@@ -36,7 +36,7 @@
 </PLCInfo>
 <PLCInfo>
 	<PLCName>fc3</PLCName>
-	<PLCAddress>S:0:3:120:0:4:3</PLCAddress>
+	<PLCAddress>S:0:3:6:0:4:3</PLCAddress>
 	<StringFormat>0</StringFormat>
 	<DriverId>0</DriverId>
 	<PLCModel>2</PLCModel>
@@ -64,7 +64,7 @@
 </AccessGroupInfo>
 <ArrayInfo>
 	<StructureName>VariableInfo</StructureName>
-	<Count>43</Count>
+	<Count>49</Count>
 </ArrayInfo>
 <VariableInfo>
 	<VariableName>daySetpoint</VariableName>
@@ -647,6 +647,64 @@
 	<TagId>76</TagId>
 </VariableInfo>
 <VariableInfo>
+	<VariableName>fc1_alarm</VariableName>
+	<VariableExternalName></VariableExternalName>
+	<VarAddress></VarAddress>
+	<OffsetName></OffsetName>
+	<InitString></InitString>
+	<InitInteger>0</InitInteger>
+	<InitFloat>0.000000</InitFloat>
+	<DataFormat>0</DataFormat>
+	<SignedFormat>2</SignedFormat>
+	<StringFormat>6</StringFormat>
+	<AGIndex>65535</AGIndex>
+	<DataLength>2</DataLength>
+	<ArraySize>1</ArraySize>
+	<BitWidth>16</BitWidth>
+	<BitOffset>0</BitOffset>
+	<TagType>0</TagType>
+	<DisableFilter>0</DisableFilter>
+	<InternalVariable>1</InternalVariable>
+	<IndirectVariable>0</IndirectVariable>
+	<ReadOnly>0</ReadOnly>
+	<SystemTag>0</SystemTag>
+	<InvisibleTag>0</InvisibleTag>
+	<StatsVariable>0</StatsVariable>
+	<SharingMode>0</SharingMode>
+	<IntegerDataType>0</IntegerDataType>
+	<VarId>64</VarId>
+	<TagId>77</TagId>
+</VariableInfo>
+<VariableInfo>
+	<VariableName>fc2_alarm</VariableName>
+	<VariableExternalName></VariableExternalName>
+	<VarAddress></VarAddress>
+	<OffsetName></OffsetName>
+	<InitString></InitString>
+	<InitInteger>0</InitInteger>
+	<InitFloat>0.000000</InitFloat>
+	<DataFormat>0</DataFormat>
+	<SignedFormat>2</SignedFormat>
+	<StringFormat>6</StringFormat>
+	<AGIndex>65535</AGIndex>
+	<DataLength>2</DataLength>
+	<ArraySize>1</ArraySize>
+	<BitWidth>16</BitWidth>
+	<BitOffset>0</BitOffset>
+	<TagType>0</TagType>
+	<DisableFilter>0</DisableFilter>
+	<InternalVariable>1</InternalVariable>
+	<IndirectVariable>0</IndirectVariable>
+	<ReadOnly>0</ReadOnly>
+	<SystemTag>0</SystemTag>
+	<InvisibleTag>0</InvisibleTag>
+	<StatsVariable>0</StatsVariable>
+	<SharingMode>0</SharingMode>
+	<IntegerDataType>0</IntegerDataType>
+	<VarId>65</VarId>
+	<TagId>78</TagId>
+</VariableInfo>
+<VariableInfo>
 	<VariableName>boundFreq</VariableName>
 	<VariableExternalName></VariableExternalName>
 	<VarAddress></VarAddress>
@@ -672,7 +730,7 @@
 	<StatsVariable>0</StatsVariable>
 	<SharingMode>0</SharingMode>
 	<IntegerDataType>0</IntegerDataType>
-	<VarId>64</VarId>
+	<VarId>66</VarId>
 	<TagId>81</TagId>
 </VariableInfo>
 <VariableInfo>
@@ -701,7 +759,7 @@
 	<StatsVariable>0</StatsVariable>
 	<SharingMode>0</SharingMode>
 	<IntegerDataType>0</IntegerDataType>
-	<VarId>65</VarId>
+	<VarId>67</VarId>
 	<TagId>82</TagId>
 </VariableInfo>
 <VariableInfo>
@@ -730,7 +788,7 @@
 	<StatsVariable>0</StatsVariable>
 	<SharingMode>0</SharingMode>
 	<IntegerDataType>0</IntegerDataType>
-	<VarId>66</VarId>
+	<VarId>68</VarId>
 	<TagId>83</TagId>
 </VariableInfo>
 <VariableInfo>
@@ -759,7 +817,7 @@
 	<StatsVariable>0</StatsVariable>
 	<SharingMode>0</SharingMode>
 	<IntegerDataType>0</IntegerDataType>
-	<VarId>67</VarId>
+	<VarId>69</VarId>
 	<TagId>84</TagId>
 </VariableInfo>
 <VariableInfo>
@@ -788,13 +846,100 @@
 	<StatsVariable>0</StatsVariable>
 	<SharingMode>0</SharingMode>
 	<IntegerDataType>0</IntegerDataType>
-	<VarId>68</VarId>
+	<VarId>70</VarId>
 	<TagId>85</TagId>
+</VariableInfo>
+<VariableInfo>
+	<VariableName>panelDaySetpoint</VariableName>
+	<VariableExternalName></VariableExternalName>
+	<VarAddress></VarAddress>
+	<OffsetName></OffsetName>
+	<InitString></InitString>
+	<InitInteger>0</InitInteger>
+	<InitFloat>0.000000</InitFloat>
+	<DataFormat>0</DataFormat>
+	<SignedFormat>2</SignedFormat>
+	<StringFormat>6</StringFormat>
+	<AGIndex>65535</AGIndex>
+	<DataLength>2</DataLength>
+	<ArraySize>1</ArraySize>
+	<BitWidth>16</BitWidth>
+	<BitOffset>0</BitOffset>
+	<TagType>0</TagType>
+	<DisableFilter>0</DisableFilter>
+	<InternalVariable>1</InternalVariable>
+	<IndirectVariable>0</IndirectVariable>
+	<ReadOnly>0</ReadOnly>
+	<SystemTag>0</SystemTag>
+	<InvisibleTag>0</InvisibleTag>
+	<StatsVariable>0</StatsVariable>
+	<SharingMode>0</SharingMode>
+	<IntegerDataType>0</IntegerDataType>
+	<VarId>71</VarId>
+	<TagId>86</TagId>
+</VariableInfo>
+<VariableInfo>
+	<VariableName>panelNightSetpoint</VariableName>
+	<VariableExternalName></VariableExternalName>
+	<VarAddress></VarAddress>
+	<OffsetName></OffsetName>
+	<InitString></InitString>
+	<InitInteger>0</InitInteger>
+	<InitFloat>0.000000</InitFloat>
+	<DataFormat>0</DataFormat>
+	<SignedFormat>2</SignedFormat>
+	<StringFormat>6</StringFormat>
+	<AGIndex>65535</AGIndex>
+	<DataLength>2</DataLength>
+	<ArraySize>1</ArraySize>
+	<BitWidth>16</BitWidth>
+	<BitOffset>0</BitOffset>
+	<TagType>0</TagType>
+	<DisableFilter>0</DisableFilter>
+	<InternalVariable>1</InternalVariable>
+	<IndirectVariable>0</IndirectVariable>
+	<ReadOnly>0</ReadOnly>
+	<SystemTag>0</SystemTag>
+	<InvisibleTag>0</InvisibleTag>
+	<StatsVariable>0</StatsVariable>
+	<SharingMode>0</SharingMode>
+	<IntegerDataType>0</IntegerDataType>
+	<VarId>72</VarId>
+	<TagId>87</TagId>
+</VariableInfo>
+<VariableInfo>
+	<VariableName>panelCurrentSetpoint</VariableName>
+	<VariableExternalName></VariableExternalName>
+	<VarAddress></VarAddress>
+	<OffsetName></OffsetName>
+	<InitString></InitString>
+	<InitInteger>0</InitInteger>
+	<InitFloat>0.000000</InitFloat>
+	<DataFormat>0</DataFormat>
+	<SignedFormat>2</SignedFormat>
+	<StringFormat>6</StringFormat>
+	<AGIndex>65535</AGIndex>
+	<DataLength>2</DataLength>
+	<ArraySize>1</ArraySize>
+	<BitWidth>16</BitWidth>
+	<BitOffset>0</BitOffset>
+	<TagType>0</TagType>
+	<DisableFilter>0</DisableFilter>
+	<InternalVariable>1</InternalVariable>
+	<IndirectVariable>0</IndirectVariable>
+	<ReadOnly>0</ReadOnly>
+	<SystemTag>0</SystemTag>
+	<InvisibleTag>0</InvisibleTag>
+	<StatsVariable>0</StatsVariable>
+	<SharingMode>0</SharingMode>
+	<IntegerDataType>0</IntegerDataType>
+	<VarId>73</VarId>
+	<TagId>91</TagId>
 </VariableInfo>
 <VariableInfo>
 	<VariableName>fc1_freq</VariableName>
 	<VariableExternalName></VariableExternalName>
-	<VarAddress>43203</VarAddress>
+	<VarAddress>464769</VarAddress>
 	<OffsetName></OffsetName>
 	<InitString></InitString>
 	<InitInteger>0</InitInteger>
@@ -817,13 +962,13 @@
 	<StatsVariable>0</StatsVariable>
 	<SharingMode>0</SharingMode>
 	<IntegerDataType>0</IntegerDataType>
-	<VarId>71</VarId>
+	<VarId>76</VarId>
 	<TagId>43</TagId>
 </VariableInfo>
 <VariableInfo>
 	<VariableName>fc2_freq</VariableName>
 	<VariableExternalName></VariableExternalName>
-	<VarAddress>43203</VarAddress>
+	<VarAddress>464769</VarAddress>
 	<OffsetName></OffsetName>
 	<InitString></InitString>
 	<InitInteger>0</InitInteger>
@@ -846,13 +991,13 @@
 	<StatsVariable>0</StatsVariable>
 	<SharingMode>0</SharingMode>
 	<IntegerDataType>0</IntegerDataType>
-	<VarId>77</VarId>
+	<VarId>82</VarId>
 	<TagId>44</TagId>
 </VariableInfo>
 <VariableInfo>
 	<VariableName>fc3_freq</VariableName>
 	<VariableExternalName></VariableExternalName>
-	<VarAddress>43203</VarAddress>
+	<VarAddress>464769</VarAddress>
 	<OffsetName></OffsetName>
 	<InitString></InitString>
 	<InitInteger>0</InitInteger>
@@ -875,13 +1020,100 @@
 	<StatsVariable>0</StatsVariable>
 	<SharingMode>0</SharingMode>
 	<IntegerDataType>0</IntegerDataType>
-	<VarId>83</VarId>
+	<VarId>88</VarId>
 	<TagId>45</TagId>
 </VariableInfo>
 <VariableInfo>
 	<VariableName>fc1_setpoint</VariableName>
 	<VariableExternalName></VariableExternalName>
-	<VarAddress>411921</VarAddress>
+	<VarAddress>464004</VarAddress>
+	<OffsetName></OffsetName>
+	<InitString></InitString>
+	<InitInteger>0</InitInteger>
+	<InitFloat>0.000000</InitFloat>
+	<DataFormat>0</DataFormat>
+	<SignedFormat>2</SignedFormat>
+	<StringFormat>0</StringFormat>
+	<AGIndex>0</AGIndex>
+	<DataLength>2</DataLength>
+	<ArraySize>1</ArraySize>
+	<BitWidth>16</BitWidth>
+	<BitOffset>0</BitOffset>
+	<TagType>0</TagType>
+	<DisableFilter>0</DisableFilter>
+	<InternalVariable>0</InternalVariable>
+	<IndirectVariable>0</IndirectVariable>
+	<ReadOnly>0</ReadOnly>
+	<SystemTag>0</SystemTag>
+	<InvisibleTag>0</InvisibleTag>
+	<StatsVariable>0</StatsVariable>
+	<SharingMode>0</SharingMode>
+	<IntegerDataType>0</IntegerDataType>
+	<VarId>75</VarId>
+	<TagId>48</TagId>
+</VariableInfo>
+<VariableInfo>
+	<VariableName>fc2_setpoint</VariableName>
+	<VariableExternalName></VariableExternalName>
+	<VarAddress>464004</VarAddress>
+	<OffsetName></OffsetName>
+	<InitString></InitString>
+	<InitInteger>0</InitInteger>
+	<InitFloat>0.000000</InitFloat>
+	<DataFormat>0</DataFormat>
+	<SignedFormat>2</SignedFormat>
+	<StringFormat>0</StringFormat>
+	<AGIndex>1</AGIndex>
+	<DataLength>2</DataLength>
+	<ArraySize>1</ArraySize>
+	<BitWidth>16</BitWidth>
+	<BitOffset>0</BitOffset>
+	<TagType>0</TagType>
+	<DisableFilter>0</DisableFilter>
+	<InternalVariable>0</InternalVariable>
+	<IndirectVariable>0</IndirectVariable>
+	<ReadOnly>0</ReadOnly>
+	<SystemTag>0</SystemTag>
+	<InvisibleTag>0</InvisibleTag>
+	<StatsVariable>0</StatsVariable>
+	<SharingMode>0</SharingMode>
+	<IntegerDataType>0</IntegerDataType>
+	<VarId>81</VarId>
+	<TagId>49</TagId>
+</VariableInfo>
+<VariableInfo>
+	<VariableName>fc3_setpoint</VariableName>
+	<VariableExternalName></VariableExternalName>
+	<VarAddress>464004</VarAddress>
+	<OffsetName></OffsetName>
+	<InitString></InitString>
+	<InitInteger>0</InitInteger>
+	<InitFloat>0.000000</InitFloat>
+	<DataFormat>0</DataFormat>
+	<SignedFormat>2</SignedFormat>
+	<StringFormat>0</StringFormat>
+	<AGIndex>2</AGIndex>
+	<DataLength>2</DataLength>
+	<ArraySize>1</ArraySize>
+	<BitWidth>16</BitWidth>
+	<BitOffset>0</BitOffset>
+	<TagType>0</TagType>
+	<DisableFilter>0</DisableFilter>
+	<InternalVariable>0</InternalVariable>
+	<IndirectVariable>0</IndirectVariable>
+	<ReadOnly>0</ReadOnly>
+	<SystemTag>0</SystemTag>
+	<InvisibleTag>0</InvisibleTag>
+	<StatsVariable>0</StatsVariable>
+	<SharingMode>0</SharingMode>
+	<IntegerDataType>0</IntegerDataType>
+	<VarId>87</VarId>
+	<TagId>50</TagId>
+</VariableInfo>
+<VariableInfo>
+	<VariableName>fc1_run</VariableName>
+	<VariableExternalName></VariableExternalName>
+	<VarAddress>464001</VarAddress>
 	<OffsetName></OffsetName>
 	<InitString></InitString>
 	<InitInteger>0</InitInteger>
@@ -905,12 +1137,12 @@
 	<SharingMode>0</SharingMode>
 	<IntegerDataType>0</IntegerDataType>
 	<VarId>74</VarId>
-	<TagId>48</TagId>
+	<TagId>51</TagId>
 </VariableInfo>
 <VariableInfo>
-	<VariableName>fc2_setpoint</VariableName>
+	<VariableName>fc2_run</VariableName>
 	<VariableExternalName></VariableExternalName>
-	<VarAddress>411921</VarAddress>
+	<VarAddress>464001</VarAddress>
 	<OffsetName></OffsetName>
 	<InitString></InitString>
 	<InitInteger>0</InitInteger>
@@ -934,12 +1166,12 @@
 	<SharingMode>0</SharingMode>
 	<IntegerDataType>0</IntegerDataType>
 	<VarId>80</VarId>
-	<TagId>49</TagId>
+	<TagId>52</TagId>
 </VariableInfo>
 <VariableInfo>
-	<VariableName>fc3_setpoint</VariableName>
+	<VariableName>fc3_run</VariableName>
 	<VariableExternalName></VariableExternalName>
-	<VarAddress>411921</VarAddress>
+	<VarAddress>464001</VarAddress>
 	<OffsetName></OffsetName>
 	<InitString></InitString>
 	<InitInteger>0</InitInteger>
@@ -963,12 +1195,12 @@
 	<SharingMode>0</SharingMode>
 	<IntegerDataType>0</IntegerDataType>
 	<VarId>86</VarId>
-	<TagId>50</TagId>
+	<TagId>53</TagId>
 </VariableInfo>
 <VariableInfo>
-	<VariableName>fc1_run</VariableName>
+	<VariableName>fc1_AI</VariableName>
 	<VariableExternalName></VariableExternalName>
-	<VarAddress>48502</VarAddress>
+	<VarAddress>465078</VarAddress>
 	<OffsetName></OffsetName>
 	<InitString></InitString>
 	<InitInteger>0</InitInteger>
@@ -977,35 +1209,6 @@
 	<SignedFormat>2</SignedFormat>
 	<StringFormat>0</StringFormat>
 	<AGIndex>0</AGIndex>
-	<DataLength>2</DataLength>
-	<ArraySize>1</ArraySize>
-	<BitWidth>16</BitWidth>
-	<BitOffset>0</BitOffset>
-	<TagType>0</TagType>
-	<DisableFilter>0</DisableFilter>
-	<InternalVariable>0</InternalVariable>
-	<IndirectVariable>0</IndirectVariable>
-	<ReadOnly>0</ReadOnly>
-	<SystemTag>0</SystemTag>
-	<InvisibleTag>0</InvisibleTag>
-	<StatsVariable>0</StatsVariable>
-	<SharingMode>0</SharingMode>
-	<IntegerDataType>0</IntegerDataType>
-	<VarId>73</VarId>
-	<TagId>51</TagId>
-</VariableInfo>
-<VariableInfo>
-	<VariableName>fc2_run</VariableName>
-	<VariableExternalName></VariableExternalName>
-	<VarAddress>48502</VarAddress>
-	<OffsetName></OffsetName>
-	<InitString></InitString>
-	<InitInteger>0</InitInteger>
-	<InitFloat>0.000000</InitFloat>
-	<DataFormat>0</DataFormat>
-	<SignedFormat>2</SignedFormat>
-	<StringFormat>0</StringFormat>
-	<AGIndex>1</AGIndex>
 	<DataLength>2</DataLength>
 	<ArraySize>1</ArraySize>
 	<BitWidth>16</BitWidth>
@@ -1021,12 +1224,12 @@
 	<SharingMode>0</SharingMode>
 	<IntegerDataType>0</IntegerDataType>
 	<VarId>79</VarId>
-	<TagId>52</TagId>
+	<TagId>56</TagId>
 </VariableInfo>
 <VariableInfo>
-	<VariableName>fc3_run</VariableName>
+	<VariableName>fc1_status</VariableName>
 	<VariableExternalName></VariableExternalName>
-	<VarAddress>48502</VarAddress>
+	<VarAddress>465026</VarAddress>
 	<OffsetName></OffsetName>
 	<InitString></InitString>
 	<InitInteger>0</InitInteger>
@@ -1034,7 +1237,65 @@
 	<DataFormat>0</DataFormat>
 	<SignedFormat>2</SignedFormat>
 	<StringFormat>0</StringFormat>
-	<AGIndex>2</AGIndex>
+	<AGIndex>0</AGIndex>
+	<DataLength>2</DataLength>
+	<ArraySize>1</ArraySize>
+	<BitWidth>16</BitWidth>
+	<BitOffset>0</BitOffset>
+	<TagType>0</TagType>
+	<DisableFilter>0</DisableFilter>
+	<InternalVariable>0</InternalVariable>
+	<IndirectVariable>0</IndirectVariable>
+	<ReadOnly>0</ReadOnly>
+	<SystemTag>0</SystemTag>
+	<InvisibleTag>0</InvisibleTag>
+	<StatsVariable>0</StatsVariable>
+	<SharingMode>0</SharingMode>
+	<IntegerDataType>0</IntegerDataType>
+	<VarId>77</VarId>
+	<TagId>66</TagId>
+</VariableInfo>
+<VariableInfo>
+	<VariableName>fc2_status</VariableName>
+	<VariableExternalName></VariableExternalName>
+	<VarAddress>465026</VarAddress>
+	<OffsetName></OffsetName>
+	<InitString></InitString>
+	<InitInteger>0</InitInteger>
+	<InitFloat>0.000000</InitFloat>
+	<DataFormat>0</DataFormat>
+	<SignedFormat>2</SignedFormat>
+	<StringFormat>0</StringFormat>
+	<AGIndex>1</AGIndex>
+	<DataLength>2</DataLength>
+	<ArraySize>1</ArraySize>
+	<BitWidth>16</BitWidth>
+	<BitOffset>0</BitOffset>
+	<TagType>0</TagType>
+	<DisableFilter>0</DisableFilter>
+	<InternalVariable>0</InternalVariable>
+	<IndirectVariable>0</IndirectVariable>
+	<ReadOnly>0</ReadOnly>
+	<SystemTag>0</SystemTag>
+	<InvisibleTag>0</InvisibleTag>
+	<StatsVariable>0</StatsVariable>
+	<SharingMode>0</SharingMode>
+	<IntegerDataType>0</IntegerDataType>
+	<VarId>83</VarId>
+	<TagId>70</TagId>
+</VariableInfo>
+<VariableInfo>
+	<VariableName>fc2_AI</VariableName>
+	<VariableExternalName></VariableExternalName>
+	<VarAddress>465078</VarAddress>
+	<OffsetName></OffsetName>
+	<InitString></InitString>
+	<InitInteger>0</InitInteger>
+	<InitFloat>0.000000</InitFloat>
+	<DataFormat>0</DataFormat>
+	<SignedFormat>2</SignedFormat>
+	<StringFormat>0</StringFormat>
+	<AGIndex>1</AGIndex>
 	<DataLength>2</DataLength>
 	<ArraySize>1</ArraySize>
 	<BitWidth>16</BitWidth>
@@ -1050,12 +1311,12 @@
 	<SharingMode>0</SharingMode>
 	<IntegerDataType>0</IntegerDataType>
 	<VarId>85</VarId>
-	<TagId>53</TagId>
+	<TagId>74</TagId>
 </VariableInfo>
 <VariableInfo>
-	<VariableName>fc1_AI</VariableName>
+	<VariableName>fc3_AI</VariableName>
 	<VariableExternalName></VariableExternalName>
-	<VarAddress>45245</VarAddress>
+	<VarAddress>465078</VarAddress>
 	<OffsetName></OffsetName>
 	<InitString></InitString>
 	<InitInteger>0</InitInteger>
@@ -1063,7 +1324,7 @@
 	<DataFormat>0</DataFormat>
 	<SignedFormat>2</SignedFormat>
 	<StringFormat>0</StringFormat>
-	<AGIndex>0</AGIndex>
+	<AGIndex>2</AGIndex>
 	<DataLength>2</DataLength>
 	<ArraySize>1</ArraySize>
 	<BitWidth>16</BitWidth>
@@ -1078,79 +1339,79 @@
 	<StatsVariable>0</StatsVariable>
 	<SharingMode>0</SharingMode>
 	<IntegerDataType>0</IntegerDataType>
-	<VarId>72</VarId>
-	<TagId>56</TagId>
+	<VarId>92</VarId>
+	<TagId>75</TagId>
 </VariableInfo>
 <VariableInfo>
-	<VariableName>fc1_status</VariableName>
+	<VariableName>fc3_alarm</VariableName>
 	<VariableExternalName></VariableExternalName>
-	<VarAddress>43202,01</VarAddress>
+	<VarAddress>465026,12</VarAddress>
 	<OffsetName></OffsetName>
 	<InitString></InitString>
 	<InitInteger>0</InitInteger>
 	<InitFloat>0.000000</InitFloat>
 	<DataFormat>0</DataFormat>
 	<SignedFormat>2</SignedFormat>
+	<StringFormat>0</StringFormat>
+	<AGIndex>2</AGIndex>
+	<DataLength>2</DataLength>
+	<ArraySize>1</ArraySize>
+	<BitWidth>1</BitWidth>
+	<BitOffset>12</BitOffset>
+	<TagType>3</TagType>
+	<DisableFilter>0</DisableFilter>
+	<InternalVariable>0</InternalVariable>
+	<IndirectVariable>0</IndirectVariable>
+	<ReadOnly>0</ReadOnly>
+	<SystemTag>0</SystemTag>
+	<InvisibleTag>0</InvisibleTag>
+	<StatsVariable>0</StatsVariable>
+	<SharingMode>0</SharingMode>
+	<IntegerDataType>0</IntegerDataType>
+	<VarId>89</VarId>
+	<TagId>79</TagId>
+</VariableInfo>
+<VariableInfo>
+	<VariableName>fc3_status</VariableName>
+	<VariableExternalName></VariableExternalName>
+	<VarAddress>465026,10</VarAddress>
+	<OffsetName></OffsetName>
+	<InitString></InitString>
+	<InitInteger>0</InitInteger>
+	<InitFloat>0.000000</InitFloat>
+	<DataFormat>0</DataFormat>
+	<SignedFormat>2</SignedFormat>
+	<StringFormat>0</StringFormat>
+	<AGIndex>2</AGIndex>
+	<DataLength>2</DataLength>
+	<ArraySize>1</ArraySize>
+	<BitWidth>1</BitWidth>
+	<BitOffset>10</BitOffset>
+	<TagType>3</TagType>
+	<DisableFilter>0</DisableFilter>
+	<InternalVariable>0</InternalVariable>
+	<IndirectVariable>0</IndirectVariable>
+	<ReadOnly>0</ReadOnly>
+	<SystemTag>0</SystemTag>
+	<InvisibleTag>0</InvisibleTag>
+	<StatsVariable>0</StatsVariable>
+	<SharingMode>0</SharingMode>
+	<IntegerDataType>0</IntegerDataType>
+	<VarId>90</VarId>
+	<TagId>80</TagId>
+</VariableInfo>
+<VariableInfo>
+	<VariableName>fc1_current</VariableName>
+	<VariableExternalName></VariableExternalName>
+	<VarAddress>465028</VarAddress>
+	<OffsetName></OffsetName>
+	<InitString></InitString>
+	<InitInteger>0</InitInteger>
+	<InitFloat>0.000000</InitFloat>
+	<DataFormat>0</DataFormat>
+	<SignedFormat>0</SignedFormat>
 	<StringFormat>0</StringFormat>
 	<AGIndex>0</AGIndex>
-	<DataLength>2</DataLength>
-	<ArraySize>1</ArraySize>
-	<BitWidth>1</BitWidth>
-	<BitOffset>1</BitOffset>
-	<TagType>3</TagType>
-	<DisableFilter>0</DisableFilter>
-	<InternalVariable>0</InternalVariable>
-	<IndirectVariable>0</IndirectVariable>
-	<ReadOnly>0</ReadOnly>
-	<SystemTag>0</SystemTag>
-	<InvisibleTag>0</InvisibleTag>
-	<StatsVariable>0</StatsVariable>
-	<SharingMode>0</SharingMode>
-	<IntegerDataType>0</IntegerDataType>
-	<VarId>69</VarId>
-	<TagId>66</TagId>
-</VariableInfo>
-<VariableInfo>
-	<VariableName>fc2_status</VariableName>
-	<VariableExternalName></VariableExternalName>
-	<VarAddress>43202,01</VarAddress>
-	<OffsetName></OffsetName>
-	<InitString></InitString>
-	<InitInteger>0</InitInteger>
-	<InitFloat>0.000000</InitFloat>
-	<DataFormat>0</DataFormat>
-	<SignedFormat>2</SignedFormat>
-	<StringFormat>0</StringFormat>
-	<AGIndex>1</AGIndex>
-	<DataLength>2</DataLength>
-	<ArraySize>1</ArraySize>
-	<BitWidth>1</BitWidth>
-	<BitOffset>1</BitOffset>
-	<TagType>3</TagType>
-	<DisableFilter>0</DisableFilter>
-	<InternalVariable>0</InternalVariable>
-	<IndirectVariable>0</IndirectVariable>
-	<ReadOnly>0</ReadOnly>
-	<SystemTag>0</SystemTag>
-	<InvisibleTag>0</InvisibleTag>
-	<StatsVariable>0</StatsVariable>
-	<SharingMode>0</SharingMode>
-	<IntegerDataType>0</IntegerDataType>
-	<VarId>75</VarId>
-	<TagId>70</TagId>
-</VariableInfo>
-<VariableInfo>
-	<VariableName>fc2_AI</VariableName>
-	<VariableExternalName></VariableExternalName>
-	<VarAddress>45245</VarAddress>
-	<OffsetName></OffsetName>
-	<InitString></InitString>
-	<InitInteger>0</InitInteger>
-	<InitFloat>0.000000</InitFloat>
-	<DataFormat>0</DataFormat>
-	<SignedFormat>2</SignedFormat>
-	<StringFormat>0</StringFormat>
-	<AGIndex>1</AGIndex>
 	<DataLength>2</DataLength>
 	<ArraySize>1</ArraySize>
 	<BitWidth>16</BitWidth>
@@ -1166,12 +1427,41 @@
 	<SharingMode>0</SharingMode>
 	<IntegerDataType>0</IntegerDataType>
 	<VarId>78</VarId>
-	<TagId>74</TagId>
+	<TagId>88</TagId>
 </VariableInfo>
 <VariableInfo>
-	<VariableName>fc3_AI</VariableName>
+	<VariableName>fc2_current</VariableName>
 	<VariableExternalName></VariableExternalName>
-	<VarAddress>45245</VarAddress>
+	<VarAddress>465028</VarAddress>
+	<OffsetName></OffsetName>
+	<InitString></InitString>
+	<InitInteger>0</InitInteger>
+	<InitFloat>0.000000</InitFloat>
+	<DataFormat>0</DataFormat>
+	<SignedFormat>0</SignedFormat>
+	<StringFormat>0</StringFormat>
+	<AGIndex>1</AGIndex>
+	<DataLength>2</DataLength>
+	<ArraySize>1</ArraySize>
+	<BitWidth>16</BitWidth>
+	<BitOffset>0</BitOffset>
+	<TagType>0</TagType>
+	<DisableFilter>0</DisableFilter>
+	<InternalVariable>0</InternalVariable>
+	<IndirectVariable>0</IndirectVariable>
+	<ReadOnly>0</ReadOnly>
+	<SystemTag>0</SystemTag>
+	<InvisibleTag>0</InvisibleTag>
+	<StatsVariable>0</StatsVariable>
+	<SharingMode>0</SharingMode>
+	<IntegerDataType>0</IntegerDataType>
+	<VarId>84</VarId>
+	<TagId>89</TagId>
+</VariableInfo>
+<VariableInfo>
+	<VariableName>fc3_current</VariableName>
+	<VariableExternalName></VariableExternalName>
+	<VarAddress>465058</VarAddress>
 	<OffsetName></OffsetName>
 	<InitString></InitString>
 	<InitInteger>0</InitInteger>
@@ -1194,123 +1484,7 @@
 	<StatsVariable>0</StatsVariable>
 	<SharingMode>0</SharingMode>
 	<IntegerDataType>0</IntegerDataType>
-	<VarId>84</VarId>
-	<TagId>75</TagId>
-</VariableInfo>
-<VariableInfo>
-	<VariableName>fc1_alarm</VariableName>
-	<VariableExternalName></VariableExternalName>
-	<VarAddress>43202,07</VarAddress>
-	<OffsetName></OffsetName>
-	<InitString></InitString>
-	<InitInteger>0</InitInteger>
-	<InitFloat>0.000000</InitFloat>
-	<DataFormat>0</DataFormat>
-	<SignedFormat>2</SignedFormat>
-	<StringFormat>0</StringFormat>
-	<AGIndex>0</AGIndex>
-	<DataLength>2</DataLength>
-	<ArraySize>1</ArraySize>
-	<BitWidth>1</BitWidth>
-	<BitOffset>7</BitOffset>
-	<TagType>3</TagType>
-	<DisableFilter>0</DisableFilter>
-	<InternalVariable>0</InternalVariable>
-	<IndirectVariable>0</IndirectVariable>
-	<ReadOnly>0</ReadOnly>
-	<SystemTag>0</SystemTag>
-	<InvisibleTag>0</InvisibleTag>
-	<StatsVariable>0</StatsVariable>
-	<SharingMode>0</SharingMode>
-	<IntegerDataType>0</IntegerDataType>
-	<VarId>70</VarId>
-	<TagId>77</TagId>
-</VariableInfo>
-<VariableInfo>
-	<VariableName>fc2_alarm</VariableName>
-	<VariableExternalName></VariableExternalName>
-	<VarAddress>43202,07</VarAddress>
-	<OffsetName></OffsetName>
-	<InitString></InitString>
-	<InitInteger>0</InitInteger>
-	<InitFloat>0.000000</InitFloat>
-	<DataFormat>0</DataFormat>
-	<SignedFormat>2</SignedFormat>
-	<StringFormat>0</StringFormat>
-	<AGIndex>1</AGIndex>
-	<DataLength>2</DataLength>
-	<ArraySize>1</ArraySize>
-	<BitWidth>1</BitWidth>
-	<BitOffset>7</BitOffset>
-	<TagType>3</TagType>
-	<DisableFilter>0</DisableFilter>
-	<InternalVariable>0</InternalVariable>
-	<IndirectVariable>0</IndirectVariable>
-	<ReadOnly>0</ReadOnly>
-	<SystemTag>0</SystemTag>
-	<InvisibleTag>0</InvisibleTag>
-	<StatsVariable>0</StatsVariable>
-	<SharingMode>0</SharingMode>
-	<IntegerDataType>0</IntegerDataType>
-	<VarId>76</VarId>
-	<TagId>78</TagId>
-</VariableInfo>
-<VariableInfo>
-	<VariableName>fc3_alarm</VariableName>
-	<VariableExternalName></VariableExternalName>
-	<VarAddress>43202,07</VarAddress>
-	<OffsetName></OffsetName>
-	<InitString></InitString>
-	<InitInteger>0</InitInteger>
-	<InitFloat>0.000000</InitFloat>
-	<DataFormat>0</DataFormat>
-	<SignedFormat>2</SignedFormat>
-	<StringFormat>0</StringFormat>
-	<AGIndex>2</AGIndex>
-	<DataLength>2</DataLength>
-	<ArraySize>1</ArraySize>
-	<BitWidth>1</BitWidth>
-	<BitOffset>7</BitOffset>
-	<TagType>3</TagType>
-	<DisableFilter>0</DisableFilter>
-	<InternalVariable>0</InternalVariable>
-	<IndirectVariable>0</IndirectVariable>
-	<ReadOnly>0</ReadOnly>
-	<SystemTag>0</SystemTag>
-	<InvisibleTag>0</InvisibleTag>
-	<StatsVariable>0</StatsVariable>
-	<SharingMode>0</SharingMode>
-	<IntegerDataType>0</IntegerDataType>
-	<VarId>81</VarId>
-	<TagId>79</TagId>
-</VariableInfo>
-<VariableInfo>
-	<VariableName>fc3_status</VariableName>
-	<VariableExternalName></VariableExternalName>
-	<VarAddress>43202,01</VarAddress>
-	<OffsetName></OffsetName>
-	<InitString></InitString>
-	<InitInteger>0</InitInteger>
-	<InitFloat>0.000000</InitFloat>
-	<DataFormat>0</DataFormat>
-	<SignedFormat>2</SignedFormat>
-	<StringFormat>0</StringFormat>
-	<AGIndex>2</AGIndex>
-	<DataLength>2</DataLength>
-	<ArraySize>1</ArraySize>
-	<BitWidth>1</BitWidth>
-	<BitOffset>1</BitOffset>
-	<TagType>3</TagType>
-	<DisableFilter>0</DisableFilter>
-	<InternalVariable>0</InternalVariable>
-	<IndirectVariable>0</IndirectVariable>
-	<ReadOnly>0</ReadOnly>
-	<SystemTag>0</SystemTag>
-	<InvisibleTag>0</InvisibleTag>
-	<StatsVariable>0</StatsVariable>
-	<SharingMode>0</SharingMode>
-	<IntegerDataType>0</IntegerDataType>
-	<VarId>82</VarId>
-	<TagId>80</TagId>
+	<VarId>91</VarId>
+	<TagId>90</TagId>
 </VariableInfo>
 </ComFileGenerator>
